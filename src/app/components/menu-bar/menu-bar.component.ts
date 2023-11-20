@@ -6,9 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./menu-bar.component.sass']
 })
 
-
-
-
 export class MenuBarComponent {
 
 }

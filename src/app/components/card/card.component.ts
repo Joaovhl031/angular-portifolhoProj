@@ -8,7 +8,7 @@ import { Component, Input, OnInit} from '@angular/core';
 export class CardComponent implements OnInit{
 
   @Input()
-  image='../../../assets/lua.jpg'
+  image=''
   @Input()
   price = 'R$ 25,00'
 
