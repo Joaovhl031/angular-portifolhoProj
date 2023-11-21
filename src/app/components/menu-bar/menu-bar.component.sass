@@ -68,78 +68,96 @@
   border: 1px solid #242424
 
 @media (max-width: 767.98px)
-
-  .content__menu
-    display: flex
-    flex-direction: row
-    position: fixed
-    z-index: 1
-    width: 100%
-    height: 80px
-    font-size: 40px
-    background-color: black
-    border: solid
+  *
+    margin: 0
+    padding: 0
 
   .menu
     display: none
-    position: absolute
+    background-color: black
+    text-align: center
+    padding: 5px solid black
 
-  .menu:hover
+  .menu__icon
+    display: none
     display: flex
+    margin-left: 80px
+    border-radius: 0px
 
-  .logo__menu
+
+  .content__menu
+    margin: 0
+    padding: 0
+    height: -1px
     display: flex
     flex-direction: column
-    justify-content: center
-    color: #FFFFFF
+    position: fixed
+    z-index: 1
+    width: 104%
+    height: 80px
+    background-color: black
 
-    margin: 20px
+    .logo__menu
+      display: flex
+      flex-direction: row
+      color: #FFFFFF
+      margin: 0
+      margin-bottom: 15px
+      margin-top: 15px
 
-    img
+      img
+        display: flex
+        margin: 0
+        padding: 0
+        border-radius: 50%
+
+      span
+        font-size: 25px
+        margin: 0
+        padding: 0
+        margin-right: 320px
+        margin-left: 5px
+
+    .nav__content
       display: flex
       flex-direction: column
-      margin: auto
-      margin-left: 10px
-      height: 45px
-      border-radius: 50%
+      justify-content: center
+      margin-top: 40px
+      margin-bottom: 40px
 
-    span
-      margin: auto
-
-  .nav__content
-    display: flex
-    justify-content: center
-    margin-top: 120px
-    margin-bottom: 120px
-
-    ul
-      text-decoration: none
-      list-style: none
-      li
-        font-size: 20px
-        margin-bottom: 20px
+      ul
         text-decoration: none
         list-style: none
-        a
-          color: #FFFFFF
-          i
-            margin: 10px
 
-  .buttom__menu
-    flex-direction: column
+        li
+          font-size: 20px
+          margin-bottom: 20px
+          text-decoration: none
+          list-style: none
 
-    button
-      width: 120px
-      height: 30px
-      margin-bottom: 10px
-      border-radius: 1rem
+          a
+            color: #FFFFFF
 
-.Agendamento
-  color: black
-  background-color: #FFFFFF
-  border: 1px solid #242424
+            i
+              margin: 10px
 
-.ver-mais
-  color: #FFFFFF
-  background-color: Black
-  border: 1px solid #242424
+    .buttom__menu
+      display: flex
+      align-items: center
+      flex-direction: column
+
+      button
+        width: 120px
+        height: 30px
+        margin-bottom: 10px
+        border-radius: 1rem
+
+  .Agendamento
+    color: black
+    background-color: #FFFFFF
+    border: 1px solid #242424
+
+  .ver-mais
+    color: #FFFFFF
+    background-color: black
+    border: 1px solid #242424

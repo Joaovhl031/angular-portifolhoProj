@@ -1,10 +1,11 @@
 .card__content
   background-color: #ebebeb
-  height: 430px
+  max-height: 430px
   max-width: 400px
   gap: 15px
   border-radius: 10px
   display: grid
+  position: relative
   flex-direction: column
   justify-content: flex-start
 
@@ -33,6 +34,10 @@
   color: #FFFFFF
   background-color: Black
   border: 1px solid #242424
+  transition: transform .8s
+.agendamento__content > a > button:hover
+    transform: scale(1.1)
+
 
 @media (max-width: 760px)
   .card__content

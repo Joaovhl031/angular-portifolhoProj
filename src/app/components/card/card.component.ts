@@ -11,6 +11,8 @@ export class CardComponent implements OnInit{
   image=''
   @Input()
   price = 'R$ 25,00'
+  @Input()
+  status: string ='DISPONÍVEL'
 
   constructor(){
 
