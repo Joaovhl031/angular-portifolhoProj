@@ -1,11 +1,22 @@
 .home__content
   display: flex
   flex-direction: column
+  margin-left: 140px
+  height: 783px
+.content
+  display: flex
+  flex-direction: column
 .card__content
   display: flex
   flex-direction: row
+  margin: 10px
   justify-content: space-between
-  margin-left: 180px
+
+.card__down
+  display: flex
+  flex-direction: row
+  margin: 10px
+  justify-content: flex-start
 
 .btn-whatsapp
   position: fixed
@@ -15,12 +26,12 @@
 
   img
     max-width: 74px
-
-
 @media (max-width: 700px)
   .home__content
     display: flex
     flex-direction: column
+    margin-left: 0
+    width: 100%
   .card__content
     display: flex
     flex-direction: column
@@ -28,3 +39,9 @@
     margin: auto
     app-card: first-child
     margin-top: 85px
+
+  .card__down
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    margin: auto
