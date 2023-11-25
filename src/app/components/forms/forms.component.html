@@ -1,5 +1,6 @@
 <div class="form__content">
   <div class="esquerda">
+    <h1>Contate-nos</h1>
     <div class="header__form">
       <label for="name">Nome: </label>
       <input id="name" type="text" placeholder="   Insira seu Nome" />
@@ -7,9 +8,9 @@
       ><input type="email" name="email" id="email" placeholder="   Insira seu Email" />
     </div>
     <div class="body__form">
-      <label for="mensagem">Mensagem</label>
+      <label for="mensagem">Mensagem: </label>
       <input type="text" class="txt" />
-      <input type="button" value="Enviar" class="btn-enviar" />
+      <input type="button" value="Enviar" class="btn-enviar" (click)="enviarEmail()"/>
     </div>
   </div>
 
