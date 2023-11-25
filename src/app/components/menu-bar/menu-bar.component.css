@@ -1,0 +1,169 @@
+.content__menu {
+  display: block;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  width: 148px;
+  height: 643px;
+  border: solid;
+}
+.content__menu .logo__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  color: #FFFFFF;
+  margin: 20px;
+}
+.content__menu .logo__menu img {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  height: 45px;
+  border-radius: 50%;
+}
+.content__menu .logo__menu span {
+  margin: auto;
+}
+.content__menu .nav__content {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.content__menu .nav__content ul {
+  text-decoration: none;
+  list-style: none;
+}
+.content__menu .nav__content ul li {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+.content__menu .nav__content ul li a {
+  color: #FFFFFF;
+}
+.content__menu .nav__content ul li a i {
+  margin: 10px;
+}
+.content__menu .buttom__menu {
+  flex-direction: column;
+  display: block;
+  margin: 20px;
+  bottom: 0;
+}
+.content__menu .buttom__menu button {
+  width: 120px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 1rem;
+}
+
+.Agendamento {
+  color: black;
+  background-color: #FFFFFF;
+  border: 1px solid #242424;
+}
+
+.ver-mais {
+  color: #FFFFFF;
+  background-color: Black;
+  border: 1px solid #242424;
+}
+
+@media (max-width: 767.98px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .menu {
+    display: none;
+    background-color: black;
+    text-align: center;
+    padding: 5px solid black;
+  }
+  .menu__icon {
+    display: none;
+    display: flex;
+    margin-left: 80px;
+    border-radius: 0px;
+  }
+  .content__menu {
+    margin: 0;
+    padding: 0;
+    height: -1px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1;
+    width: 104%;
+    height: 80px;
+    background-color: black;
+  }
+  .content__menu .logo__menu {
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .content__menu .logo__menu img {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+  }
+  .content__menu .logo__menu span {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    margin-right: 260px;
+    margin-left: 5px;
+  }
+  .content__menu .nav__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .content__menu .nav__content ul {
+    text-decoration: none;
+    list-style: none;
+  }
+  .content__menu .nav__content ul li {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    list-style: none;
+  }
+  .content__menu .nav__content ul li a {
+    color: #FFFFFF;
+  }
+  .content__menu .nav__content ul li a i {
+    margin: 10px;
+  }
+  .content__menu .buttom__menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .content__menu .buttom__menu button {
+    width: 120px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 1rem;
+  }
+  .Agendamento {
+    color: black;
+    background-color: #FFFFFF;
+    border: 1px solid #242424;
+  }
+  .ver-mais {
+    color: #FFFFFF;
+    background-color: black;
+    border: 1px solid #242424;
+  }
+}/*# sourceMappingURL=menu-bar.component.css.map */
