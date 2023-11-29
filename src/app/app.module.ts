@@ -9,6 +9,7 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { CardDescriptionComponent } from './components/card/card-description/card-description.component';
 import { AboutComponent } from './components/about/about.component';
 import { FormsComponent } from './components/forms/forms.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FormsComponent } from './components/forms/forms.component';
     MenuBarComponent,
     CardDescriptionComponent,
     AboutComponent,
-    FormsComponent
+    FormsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
