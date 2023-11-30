@@ -12,7 +12,7 @@ export class CardComponent implements OnInit{
   @Input()
   price = 'R$ 25,00'
   @Input()
-  status: string ='DISPONÍVEL'
+  status: string ='1 DISPONÍVEL'
 
   constructor(){
 
